@@ -1,4 +1,4 @@
-\score = float(input("Enter score: "))
+score = float(input("Enter score: "))
 if score < 0:
     print("Invalid score")
 elif score > 100:
