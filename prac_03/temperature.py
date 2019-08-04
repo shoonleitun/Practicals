@@ -3,13 +3,6 @@ CP1404/CP5632 - Practical
 Pseudocode for temperature conversion
 """
 
-def cal_fah(celsius):
-    fah = celsius * 9.0 / 5 + 32
-    return fah
-
-def cal_cel(fahrenheit):
-    cel = 5 / 9 * (fahrenheit - 32)
-    return cel
 
 def main():
     MENU = """C - Convert Celsius to Fahrenheit
