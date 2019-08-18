@@ -4,12 +4,17 @@ State names in a dictionary
 File needs reformatting
 """
 
-# TODO: Reformat this file so the dictionary code follows PEP 8 convention
+# TODO:
 STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales",
                "NT": "Northern Territory", "WA": "Western Australia",
                "ACT": "Australian Capital Territory", "VIC": "Victoria",
                "TAS": "Tasmania"}
 # print(STATE_NAMES)
+
+
+for keys,values in STATE_NAMES.items():
+    print("{} is {}".format(keys, values))
+
 
 state = input("Enter short state: ").upper()
 while state != "":
