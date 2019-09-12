@@ -12,7 +12,6 @@ class NameApp(App):
     status_text = StringProperty()
 
     def __init__(self, **kwargs):
-
         super().__init__(**kwargs)
         self.name = ["Bob Brown", "Cat Cyan", "Oren Ochre"]
 
